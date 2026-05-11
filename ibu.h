@@ -21,9 +21,10 @@ public:
     {
         cout << "Ibu \"" << nama << "\" tidak ada\n";
     }
-
-    
-    
+    void tambahAnak(anak* pAnak)
+    {
+        daftar_anak.push_back(pAnak);
+    }
 
 
 };
